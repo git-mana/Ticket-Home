@@ -1,0 +1,11 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+input:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px #f3f3f3 inset !important;
+  -webkit-text-fill-color: rgb(5, 5, 5) !important;
+  caret-color: white;
+  transition: background-color 5000s ease-in-out 0s;
+}
